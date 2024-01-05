@@ -19,10 +19,10 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body
-        className={`${inter.className} mx-auto my-0 grid min-h-screen w-11/12 max-w-[1280px] grid-rows-[auto,1fr,auto] bg-background px-12 text-white`}
+        className={`${inter.className} mx-auto my-0 bg-background px-12 text-white`}
       >
         <Navbar />
-        <main className='min-h-[calc(100dvh-7rem)] pt-4'>{children}</main>
+        <main className='py-4'>{children}</main>
         <Footer />
       </body>
     </html>

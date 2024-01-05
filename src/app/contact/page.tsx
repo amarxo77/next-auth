@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   return (
-    <div className='grid  grid-cols-2 gap-24'>
+    <div className='md:grid md:grid-cols-2 md:gap-24 md:pb-5'>
       <div className='relative'>
         <Image
           src={contactImg}
@@ -29,11 +29,11 @@ export default function ContactPage() {
             name=''
             rows={7}
             placeholder='Message'
-            className='rounded-md bg-bgSoft p-2 text-white'
+            className='h-28 rounded-md bg-bgSoft p-2 text-white md:h-36 lg:h-auto'
           />
           <button
             type='submit'
-            className='rounded-md bg-blue-500 p-3 font-bold text-white'
+            className='rounded-md bg-blue-500 p-2 font-bold text-white lg:p-3'
           >
             Send
           </button>

@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .active-link {
-  @apply text-background bg-white;
+  @apply text-white bg-amber-500;
 }

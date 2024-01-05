@@ -20,7 +20,7 @@ export default function NavLink({
       href={href}
       className={`${
         pathname === href ? 'active-link' : ''
-      } rounded-2xl px-4 py-[0.3rem] text-center font-medium`}
+      } rounded-lg px-[1.2rem] py-[0.5rem] text-center font-medium`}
       onClick={onClick}
     >
       {label}
